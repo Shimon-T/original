@@ -71,7 +71,8 @@ class ShareViewController: UIViewController, MCSessionDelegate, MCBrowserViewCon
         }
     }
     
-    // MARK: - MCSessionDelegate Methods
+    
+    // MCSessionDelegate Methods
     
     func session(_ session: MCSession, peer peerID: MCPeerID, didChange state: MCSessionState) {
         print("session")
@@ -106,7 +107,7 @@ class ShareViewController: UIViewController, MCSessionDelegate, MCBrowserViewCon
     
     func session(_ session: MCSession, didFinishReceivingResourceWithName resourceName: String, fromPeer peerID: MCPeerID, at localURL: URL?, withError error: Error?) {}
     
-    // MARK: - MCBrowserViewControllerDelegate Methods
+    // MCBrowserViewControllerDelegate Methods
     
     func browserViewControllerDidFinish(_ browserViewController: MCBrowserViewController) {
         dismiss(animated: true)

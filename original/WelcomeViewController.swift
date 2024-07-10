@@ -17,8 +17,8 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
         self.mymeisi.image = retrieveImage(forKey: "meisi")
         //デバッグ用
-        UserDefaults.standard.set(false, forKey: "visit")
-        UserDefaults.standard.set(false, forKey: "update")
+//        UserDefaults.standard.set(false, forKey: "visit")
+//        UserDefaults.standard.set(false, forKey: "update")
     }
     
     

@@ -8,7 +8,7 @@
 		<string>_photo-share._udp</string>
 	</array>
 	<key>NSLocalNetworkUsageDescription</key>
-	<string>接続に使用</string>
+	<string>名刺の共有に使用</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
