@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fYk-f4-33x">
-                                <rect key="frame" x="81.666666666666686" y="634.66666666666663" width="230" height="35"/>
+                                <rect key="frame" x="81.666666666666686" y="665.66666666666663" width="230" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="230" id="kRr-G9-fI1"/>
                                 </constraints>
@@ -36,13 +36,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AcR-C6-52y">
-                                <rect key="frame" x="60" y="120.00000000000003" width="273" height="409.66666666666674"/>
+                                <rect key="frame" x="60" y="151.33333333333334" width="273" height="409.33333333333326"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="AcR-C6-52y" secondAttribute="height" multiplier="2:3" id="IXq-fo-FMm"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUu-sC-qAb">
-                                <rect key="frame" x="81.666666666666686" y="559.66666666666663" width="230" height="35"/>
+                                <rect key="frame" x="81.666666666666686" y="590.66666666666663" width="230" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="230" id="VBq-i5-AOp"/>
                                 </constraints>
@@ -57,9 +57,9 @@
                         <viewLayoutGuide key="safeArea" id="qVw-rU-rL6"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="AcR-C6-52y" firstAttribute="centerY" secondItem="ng3-rQ-Gir" secondAttribute="centerY" constant="-70" id="54l-aY-GZk"/>
                             <constraint firstItem="qVw-rU-rL6" firstAttribute="trailing" secondItem="AcR-C6-52y" secondAttribute="trailing" constant="60" id="HJT-r6-Wca"/>
                             <constraint firstItem="rgY-Tg-B9C" firstAttribute="centerX" secondItem="ng3-rQ-Gir" secondAttribute="centerX" id="L4Q-67-veq"/>
-                            <constraint firstItem="AcR-C6-52y" firstAttribute="top" secondItem="rgY-Tg-B9C" secondAttribute="bottom" constant="20" id="PAx-wp-7Ah"/>
                             <constraint firstItem="fYk-f4-33x" firstAttribute="centerX" secondItem="ng3-rQ-Gir" secondAttribute="centerX" id="T7s-38-hMg"/>
                             <constraint firstItem="fUu-sC-qAb" firstAttribute="top" secondItem="AcR-C6-52y" secondAttribute="bottom" constant="30" id="YTx-kg-zwc"/>
                             <constraint firstItem="fYk-f4-33x" firstAttribute="top" secondItem="fUu-sC-qAb" secondAttribute="bottom" constant="40" id="qX0-4r-Qea"/>

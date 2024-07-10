@@ -4,11 +4,11 @@
 <dict>
 	<key>NSBonjourServices</key>
 	<array>
-		<string>_serviceType._tcp</string>
-		<string>_serviceType._udp</string>
+		<string>_photo-share._tcp</string>
+		<string>_photo-share._udp</string>
 	</array>
 	<key>NSLocalNetworkUsageDescription</key>
-	<string></string>
+	<string>接続に使用</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
