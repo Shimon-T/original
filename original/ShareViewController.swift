@@ -86,8 +86,16 @@ class ShareViewController: UIViewController, MCSessionDelegate, MCBrowserViewCon
                 self.statusLabel.text = "Connecting..."
             case .notConnected:
                 self.statusLabel.text = "Not Connected"
-                self.cancelButton.isHidden = true
-                self.shareButton.isHidden = true
+                
+//                本来
+//                self.cancelButton.isHidden = true
+//                self.shareButton.isHidden = true
+//
+//                デバック用
+                  self.cancelButton.isHidden = false
+                  self.shareButton.isHidden = false
+                
+                
             @unknown default:
                 fatalError()
             }
