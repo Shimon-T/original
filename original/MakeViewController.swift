@@ -19,6 +19,12 @@ class MakeViewController: UIViewController, PHPickerViewControllerDelegate {
     @IBOutlet var select3_b: UIButton!
     @IBOutlet var select4_b: UIButton!
     
+    @IBOutlet var black_b: UIButton!
+    @IBOutlet var white_b: UIButton!
+    @IBOutlet var red_b: UIButton!
+    @IBOutlet var blue_b: UIButton!
+    @IBOutlet var erase_b: UIButton!
+    
     
     var whatselected: String = "select1"
     var myimage: UIImage?
@@ -45,6 +51,13 @@ class MakeViewController: UIViewController, PHPickerViewControllerDelegate {
         select2_b.setTitle(select2, for: .normal)
         select3_b.setTitle(select3, for: .normal)
         select4_b.setTitle(select4, for: .normal)
+        
+        self.black_b.isHidden = true
+        self.white_b.isHidden = true
+        self.red_b.isHidden = true
+        self.blue_b.isHidden = true
+        self.black_b.isHidden = true
+        self.erase_b.isHidden = true
     }
     
     @objc func buttonTapped(_ sender: UIButton) {
@@ -52,6 +65,15 @@ class MakeViewController: UIViewController, PHPickerViewControllerDelegate {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        if erase_b.isHidden {
+            self.black_b.isHidden = false
+            self.white_b.isHidden = false
+            self.red_b.isHidden = false
+            self.blue_b.isHidden = false
+            self.black_b.isHidden = false
+            self.erase_b.isHidden = false
+        }
         
         
         let touch: UITouch = touches.first!
@@ -157,6 +179,7 @@ class MakeViewController: UIViewController, PHPickerViewControllerDelegate {
     }
     
     @IBAction func erase(){
+        ButtonArray.last!.removeFromSuperview()
         ButtonArray.removeLast()
         print("erase")
     }

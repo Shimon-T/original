@@ -989,10 +989,15 @@
                     <navigationItem key="navigationItem" id="yTC-Pq-l76"/>
                     <connections>
                         <outlet property="backgroundImageiew" destination="32x-5k-lHY" id="Xaj-tH-xmC"/>
+                        <outlet property="black_b" destination="ukY-Si-IVo" id="hww-Sr-rkR"/>
+                        <outlet property="blue_b" destination="MAz-Ex-sf5" id="kYK-WF-gGk"/>
+                        <outlet property="erase_b" destination="Dz4-e1-ufE" id="Nub-6f-TzF"/>
+                        <outlet property="red_b" destination="O7j-Vt-HQv" id="swy-SO-h55"/>
                         <outlet property="select1_b" destination="S9P-7P-4qd" id="wNQ-AZ-tWF"/>
                         <outlet property="select2_b" destination="e9s-CY-27U" id="Tfz-Lr-ZVJ"/>
                         <outlet property="select3_b" destination="PJD-Qh-SOI" id="aw1-er-b6t"/>
                         <outlet property="select4_b" destination="BqN-Hf-nHS" id="fqd-8e-vFF"/>
+                        <outlet property="white_b" destination="Pqz-xq-J4z" id="BtV-BT-1Rl"/>
                         <outlet property="yourimagebutton" destination="R1j-br-zab" id="12a-Cp-UY1"/>
                     </connections>
                 </viewController>
