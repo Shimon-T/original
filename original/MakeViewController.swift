@@ -145,12 +145,6 @@ class MakeViewController: UIViewController, PHPickerViewControllerDelegate {
         print("white")
     }
     
-    
-    @IBAction func gray(){
-        ButtonArray.last!.setTitleColor(UIColor.gray, for: .normal)
-        ButtonArray.last!.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0)
-        print("gray")
-    }
     @IBAction func red(){
         ButtonArray.last!.setTitleColor(UIColor.red, for: .normal)
         ButtonArray.last!.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0)
@@ -160,6 +154,11 @@ class MakeViewController: UIViewController, PHPickerViewControllerDelegate {
         ButtonArray.last!.setTitleColor(UIColor.blue, for: .normal)
         ButtonArray.last!.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0)
         print("blue")
+    }
+    
+    @IBAction func erase(){
+        ButtonArray.removeLast()
+        print("erase")
     }
     
     @IBAction func select1() {
